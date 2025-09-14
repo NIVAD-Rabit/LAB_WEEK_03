@@ -16,7 +16,7 @@ private const val ARG_PARAM2 = "param2"
 
 class ListFragment : Fragment(), View.OnClickListener{
 
-    private lateinit var coffeeListener: CoffeeListener;
+    private lateinit var coffeeListener: CoffeeListener
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
