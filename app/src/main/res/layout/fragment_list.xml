@@ -37,5 +37,23 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/latte_title"/>
+        <TextView
+            android:id="@+id/flatwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/flatwhite_title"/>
+        <TextView
+            android:id="@+id/mocha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/mocha_title"/>
+        <TextView
+            android:id="@+id/cappuccino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/cappuccino_title"/>
     </LinearLayout>
 </ScrollView>

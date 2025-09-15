@@ -12,5 +12,19 @@ extraction.)</string>
     <string name="latte_desc">A tall, mild \'milk coffee\' (about 150-300 ml). An
 espresso with steamed milk and only a little milk foam poured over it. Serve in a
 latte glass or a coffee cup. Flavored syrup can be added.</string>
+    <string name="mocha_title">MOCHA</string>
+    <string name="mocha_desc">Espresso combined with hot chocolate (or cocoa powder
+        + sugar + milk) and topped with steamed milk. Often finished with whipped
+        cream or a sprinkle of cocoa, giving a mix of coffee bitterness and chocolate
+        sweetness.</string>
+    <string name="flatwhite_desc">Espresso with steamed milk and a thin layer of microfoam.
+        Served in a smaller cup than a latte. The balance highlights the espresso flavor
+        while giving a velvety texture from the milk.</string>
+    <string name="cappuccino_desc">A shot of espresso topped with equal parts of steamed milk
+    and milk foam. Served in a small cup, giving a strong coffee flavor
+    balanced with creamy texture.</string>
+    <string name="cappuccino_title">CAPPUCCINO</string>
+    <string name="flatwhite_title">FLAT WHITE</string>
     <string name="coffee_list">Coffee List</string>
+    <string name="button">Back</string>
 </resources>

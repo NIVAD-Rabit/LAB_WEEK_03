@@ -2,6 +2,7 @@ package com.example.lab_week_03
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -40,8 +41,12 @@ class ListFragment : Fragment()/*, View.OnClickListener*/{
         val coffeeList = listOf<View>(
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
-            view.findViewById(R.id.latte)
+            view.findViewById(R.id.latte),
+            view.findViewById(R.id.flatwhite),
+            view.findViewById(R.id.mocha),
+            view.findViewById(R.id.cappuccino)
         )
+
 
         coffeeList.forEach{ coffee ->
             val fragmentBundle = Bundle()
@@ -53,7 +58,7 @@ class ListFragment : Fragment()/*, View.OnClickListener*/{
         }
        /* coffeeList.forEach{
             it.setOnClickListener(this)
-        } */
+        } */Log.d("list", "finished")
     }
 
    /* override fun onClick(v: View?) {
